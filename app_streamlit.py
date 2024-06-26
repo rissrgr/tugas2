@@ -22,5 +22,5 @@ if st.button("convert"):
         st.write("Hasil:")
         for item in result['hasil']:
             st.write(item)
-    else:
-        st.error("Error in conversion")
+    # else:
+    #     st.error("Error in conversion")
